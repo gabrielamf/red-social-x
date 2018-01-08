@@ -26,30 +26,48 @@
 			</div>
 		</div>
 	</section>
-	<section id="content" class="container valign-wrapper">
-		<div class="row">
-			<form class="col s12">
-				<div class="row">
-					<div class="input-field col s8 offset-s2">
-						<i class="material-icons prefix">account_circle</i>
-						<input id="email" type="email" class="validate">
-						<label for="email">Email</label>
+	<section id="content" class="cyan lighten-5">
+    <nav class="fixed-top white">
+        <div class="nav-wrapper">
+          <div class="col s6">
+            <a href="#" class="brand-logo center"><img src="assets/images/logo-nombre.png" class="responsive-img" alt="logo"></a>
+          </div>
+        </div>
+    </nav>
+    <div class="container valign-wrapper">
+			<div class="row">
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s10 offset-s1">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="email" type="email" class="validate">
+							<label for="email">Email</label>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s8 offset-s2">
-						<i class="material-icons prefix">account_circle</i>
-						<input id="password" type="password" class="validate">
-						<label for="password">Password</label>
-					</div>
-				</div>
-			</form>
+					<div class="row">
+						<div class="input-field col s10 offset-s1">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="password" type="password" class="validate">
+							<label for="password">Password</label>
+						</div>
+          </div>
+          <div class="row">
+            <div class="col s10 offset-s1">
+              <a id="log-in" class="waves-effect waves-light btn">Log in</a>
+              <a id="sign-up"class="waves-effect waves-light btn">Sign up</a>
+              <a href="" id="" class="waves-effect waves-light btn modal-trigger"><i class="material-icons">exit_to_app</i></a>
+            </div>
+          </div>
+				</form>
+			</div>
 		</div>
-	</section>
-
+  </section>
+  <!-- Enlace a jQuery compilado y minificado-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- Enlace a Materialize compilado y minificado-->
-	<script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+  <!-- Enlace a Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 	<!-- Enlace a archivo JavaScript externo -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>

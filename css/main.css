@@ -15,4 +15,10 @@
 /* Desktop */
 @media (min-width: 992px) {
 	
+#content {
+	height: 100vh;
+}
+
+.logoNav{
+	width: 100%;
 }
